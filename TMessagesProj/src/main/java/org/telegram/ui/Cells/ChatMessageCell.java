@@ -9349,7 +9349,7 @@ public class ChatMessageCell extends BaseCell implements SeekBar.SeekBarDelegate
                         }
                     }
                     int maxTextWidth = 0;
-                    int maxWidth = backgroundWidth - dp(86 + (currentPosition == null ? 0 : 52));
+                    int maxWidth = backgroundWidth - dp(110 + (currentPosition == null ? 0 : 52));
                     if (currentPosition == null) {
                         captionFullWidth = backgroundWidth - getExtraTextX() * 2;
                         currentCaption = messageObject.caption;
